@@ -1,0 +1,90 @@
+body {
+    background: #c7c7c7;
+}
+label.query-label {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    font-size: 1.2em;
+    background: #ededed;
+    width: 37px;
+    height: 32px;
+    line-height: 35px;
+    text-align: center;
+    border-right: 1px solid #a7a2a2;
+}
+
+.search-container {
+    position: relative;
+}
+
+#query {
+    padding-left: 45px;
+}
+
+form#wiki_form {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: none;
+}
+
+.img-thumbnail {
+    margin-right: 10px;
+}
+
+.wiki-container {
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #7d7b7b;
+}
+
+div#wiki_result a {
+    display: block;
+    color: #333;
+}
+
+.footer-inner {
+    padding: 15px 0;
+}
+
+footer.page-footer {
+    background: #024f52;
+    color: #fff;
+}
+
+.page-footer a {
+    color: #fff;
+}
+
+div#wiki_result {
+    min-height: 365px;
+}
+
+i.fa.fa-heart {
+    font-size: 28px;
+    line-height: 20px;
+    color: #f7f7f7;
+}
+
+.shw {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.shw a {
+    font-size: 7em;
+    position: relative;
+    cursor: pointer;
+}
+
+.wh {font-family: 'Lobster Two', cursive;font-size: 3em;text-transform: capitalize;}
+
+div#search_result {
+    padding: 3px;
+    margin-bottom: 10px;
+    color: #fff;
+}
